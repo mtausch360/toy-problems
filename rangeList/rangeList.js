@@ -60,9 +60,9 @@ var rangeListRecursive = function(start, end, range, currentValue){
 
 
 
-var range0 = rangeListIterative(2,5);
-var range1 = rangeListIterative(8,1);
-var range2 = rangeListIterative(3,3);
+// var range0 = rangeListIterative(2,5);
+// var range1 = rangeListIterative(8,1);
+// var range2 = rangeListIterative(3,3);
 
 var range0 = rangeListRecursive(2,5);
 var range1 = rangeListRecursive(8,1);
